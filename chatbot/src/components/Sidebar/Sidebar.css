@@ -1,0 +1,56 @@
+.sideview2 {
+  width: 15%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+.history {
+  margin-top: 20px;
+  background-color: #D7C7F4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.chat {
+  background-color: #D7C7F4;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* Ensure items are aligned properly */
+}
+.circle {
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  /* Optional spacing */
+}
+p {
+  padding: 2px;
+  margin-right: 10px;
+  /* Optional spacing */
+}
+.edit {
+  height: 20px;
+  width: 20px;
+}
+.sideview{
+  display:none;
+}
+@media (max-width: 768px) {
+ .sideview2 {
+  display:none;
+ }
+.sideview {
+    display:block;
+    /* Adjust width as needed */
+  }
+}
+@media (min-width: 769px) {
+.sideview{
+  display:none;
+}
+.sideview2{
+    width: 15%;
+    /* Keep the sidebar width on larger screens */
+  }
+}

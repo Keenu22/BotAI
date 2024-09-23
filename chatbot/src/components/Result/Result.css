@@ -1,0 +1,28 @@
+.resultPart {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
+}
+.resHeading{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #9785BA;
+  text-align: left;
+  padding: 20px;
+}
+.dropdown{
+  align-self: center;
+  margin-left: 10%;
+}
+.smallBtn{
+  width:fit-content;
+  height:20px;
+}
+@media (max-width: 768px) {
+  .resultPart {
+    width: 100vw;
+    height: 100vh;
+  }
+}
